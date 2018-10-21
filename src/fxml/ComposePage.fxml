@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="1000.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bitVaultAttachment.controller.ComposePage">
+   <children>
+      <VBox fx:id="verticalComposePane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="450.0" prefWidth="750.0" spacing="5.0" style="-fx-background-color: red;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="headerLabel" text="Compose">
+               <VBox.margin>
+                  <Insets top="14.0" />
+               </VBox.margin>
+            </Text>
+            <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="800.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="400.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="inboxDownloadNewContainer" text="Attachments" />
+                     </children>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="400.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="addAttachments" alignment="CENTER" mnemonicParsing="false" onAction="#addAttachments" prefHeight="30.0" prefWidth="130.0" styleClass="addAttachments" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets right="15.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox maxHeight="1.7976931348623157E308" prefHeight="350.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ScrollPane fx:id="attachScrollPane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" prefHeight="350.0" prefWidth="550.0" HBox.hgrow="ALWAYS" />
+                  <VBox fx:id="qrCodePane" alignment="TOP_CENTER" prefHeight="350.0" prefWidth="228.0" spacing="5.0">
+                     <children>
+                        <Label fx:id="scanLabel" text="Scan QR Code For TXID" visible="false">
+                           <VBox.margin>
+                              <Insets top="25.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="nextCompose" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" styleClass="actionButtons" text="Next" visible="false" />
+               </children>
+               <opaqueInsets>
+                  <Insets right="15.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+
+</AnchorPane>

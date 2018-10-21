@@ -1,0 +1,179 @@
+.button {
+	-fx-background: #000000;
+	-fx-border-radius: 10;
+	-fx-padding: 3 6 6 6;
+	-fx-cursor: hand;
+}
+
+.titleLabel {
+	background: #C7A661 !important;
+}
+
+.actionButtons {
+	-fx-background-color: #AB925A;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: hand;
+}
+
+.sideLinks {
+	-fx-font-color: #ffffff;
+}
+
+.sideLinkClass {
+	-fx-background-color: #bfa364;
+	-fx-border-color: #f3f3f3;
+	-fx-border-radius: 0 !important;
+	-fx-border-width: 0 0 0.5px 0;
+	-fx-font: 21px "Arial";
+	-fx-cursor: hand;
+	/* 	-fx-font-weight: bold; */
+}
+
+.sideLinkClass:hover {
+	-fx-background-color: #d6bb84;
+}
+
+.addAttachments {
+	-fx-background-image: url('/images/attachfiles.png');
+	-fx-background-height: 30px;
+	-fx-background-width: 130px;
+	-fx-background-size: 130px 30px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+/* .sideLinkClass:hover{
+    	-fx-background-color:#bfa364;
+	-fx-border-color: white;
+	-fx-border-radius: 0 !important;
+	-fx-border-width: 0 0 1px 0;
+	-fx-font-weight: bold;
+} */
+.containerClass {
+	-fx-padding: 1;
+	-fx-border-width: 1;
+	-fx-border-insets: 1;
+	-fx-background-color: white;
+}
+
+.parentContainerClass {
+	-fx-padding: 10;
+	-fx-border-width: 2;
+	-fx-border-insets: 5;
+	-fx-background-color: #F3F3F3;
+}
+
+.headerLabel {
+	-fx-font-family: Arial;
+	-fx-font-size: 30px;
+	-fx-font-style: normal;
+	-fx-font-weight: lighter;
+	-fx-fill: #AB925A;
+}
+
+.nameColumn {
+	-fx-font-family: Arial;
+	-fx-font-size: 12px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-fill: #2EB2EB;
+}
+
+.greyNameColumn {
+	-fx-fill: grey !important;
+}
+
+.timeColumn {
+	-fx-font-weight: normal !important;
+	-fx-fill: grey !important;
+}
+
+.inboxDownloadNewContainer {
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+}
+
+.newAttHeader {
+	-fx-padding: 1;
+	-fx-border-width: 1;
+	-fx-border-insets: 1;
+	-fx-background-color: #F3F3F3;
+}
+
+.textFromOthers {
+	-fx-fill: black !important;
+}
+
+.sortByClass {
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+}
+
+.spbottom {
+	-fx-background-color: transparent;
+}
+
+.onFocusCSS:focused {
+	-fx-focus-color: transparent;
+}
+
+.progressBarCss .track {
+	-fx-background-color: white;
+	-fx-background-radius: 2;
+}
+
+.progressBarCss .bar {
+	-fx-background-color: #bfa364;
+	-fx-background-radius: 2;
+}
+
+.list-view .list-cell:even {
+	-fx-background-color: white;
+}
+
+.list-view .list-cell:odd {
+	-fx-background-color: white;
+}
+
+.list-view .list-cell:odd {
+	-fx-background-color: -fx-control-inner-background;
+}
+
+.scroll-bar:horizontal .track ,
+.scroll-bar:vertical .track {
+	-fx-background-color: white;
+	-fx-border-color:  white;
+	-fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb ,
+.scroll-bar:vertical .thumb {
+	-fx-background-color: #F3F3F3;
+	-fx-background-radius: 5em;
+}
+
+.scroll-bar>.increment-button, .decrement-button {
+	-fx-background-color: white;
+	-fx-border-color: white;
+	-fx-background-insets: 0;
+}
+
+.combo-box .cell:selected {
+	-fx-text-fill: black;
+	-fx-focus-color: transparent;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+	-fx-text-fill: black;
+	-fx-focus-color: transparent;
+	-fx-background-color: #F3F3F3;
+}
+
+.combo-box-base {
+	-fx-background-color: transparent, lightgrey, transparent;
+	-fx-focus-color: transparent;
+}

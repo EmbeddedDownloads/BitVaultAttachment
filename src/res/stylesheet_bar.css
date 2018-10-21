@@ -1,0 +1,27 @@
+#textFrom{
+	-fx-font-family: Arial	;
+	-fx-font-size: 12px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-fill: #2EB2EB;
+}
+
+#textTime{
+	-fx-font-family: Arial	;
+	-fx-font-size: 12px;
+	-fx-font-style: normal;
+	-fx-font-weight: normal;
+	-fx-fill: grey;
+}
+
+#container{
+	-fx-padding: 1; 
+	-fx-border-width: 1; 
+	-fx-border-insets: 1; 
+	-fx-background-color: white;
+	}
+		
+#attachmentContainer{
+	-fx-background-color: white
+	}
+		

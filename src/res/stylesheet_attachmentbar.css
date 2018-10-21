@@ -1,0 +1,15 @@
+#textAttachmentName{
+	-fx-font-family: Arial	;
+	-fx-font-size: 11px;
+	-fx-font-style: normal;
+	-fx-font-weight: bold;
+	-fx-fill: grey;
+}
+
+#textAttachmentSize{
+	-fx-font-family: Arial	;
+	-fx-font-size: 12px;
+	-fx-font-style: normal;
+	-fx-font-weight: normal;
+	-fx-fill: grey;
+}

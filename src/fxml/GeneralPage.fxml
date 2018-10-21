@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox prefHeight="550.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bitVaultAttachment.controller.GeneralPage">
+   <children>
+      <StackPane prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="720.0" style="-fx-background-color: #AB925A; -fx-color: white;" styleClass="titleLabel" text="Bitach" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <HBox fx:id="searchBarMenu" alignment="TOP_RIGHT" fillHeight="false" prefHeight="32.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+               <children>
+                  <HBox fx:id="connectionBar" prefHeight="100.0" prefWidth="40.0">
+                     <HBox.margin>
+                        <Insets right="9.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox fillHeight="false" maxWidth="230.0" prefHeight="32.0" prefWidth="230.0" style="-fx-background-color: #C4B28B; -fx-background-radius: 5;">
+                     <children>
+                        <Text fx:id="searchIcon" onMouseClicked="#searchAction" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <HBox.margin>
+                              <Insets left="6.0" right="4.0" top="7.0" />
+                           </HBox.margin>
+                        </Text>
+ <TextField fx:id="searchText" blendMode="MULTIPLY" prefHeight="32.0" prefWidth="200.0" promptText="Search" style="-fx-background-color: transparent;" styleClass="onFocusCSS">
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <HBox.margin>
+                        <Insets top="9.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <Text fx:id="notificationIcon" onMousePressed="#notificationAction" strokeType="OUTSIDE" strokeWidth="0.0" text="not">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <HBox.margin>
+                        <Insets left="14.0" top="15.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+      <HBox maxHeight="1.7976931348623157E308" prefHeight="500.0" prefWidth="1000.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox maxHeight="1000.0" minWidth="150.0" prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #bfa364;">
+               <children>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#inboxAction" prefHeight="50.0" prefWidth="200.0" styleClass="sideLinkClass" text="     Inbox" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#composeAction" prefHeight="50.0" prefWidth="200.0" styleClass="sideLinkClass" text="     Compose" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#draftAction" prefHeight="50.0" prefWidth="200.0" styleClass="sideLinkClass" text="     Drafts" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <ScrollPane fx:id="generalScrollPane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="800.0" styleClass="onFocusCSS" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets top="0.5" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

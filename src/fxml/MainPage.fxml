@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="VBoxId" alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="550.0" prefWidth="1000.0" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bitVaultAttachment.controller.MainPage">
+    <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: #AB925A; -fx-color: white;" styleClass="titleLabel" text="Bitach" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Label>
+      <Label text="Scan QR Code From BitVault">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+        <ImageView fx:id="imageView" fitHeight="307.0" fitWidth="419.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="IsRegisterImageView" fitHeight="158.0" fitWidth="243.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+
+</VBox>

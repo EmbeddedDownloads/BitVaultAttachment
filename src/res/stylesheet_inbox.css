@@ -1,0 +1,103 @@
+#rootInbox{
+	-fx-padding: 10; 
+	-fx-border-width: 2; 
+	-fx-border-insets: 5;  
+	-fx-background-color: #F3F3F3;
+}
+
+#textInbox{
+	-fx-font-family: Arial;
+	-fx-font-size: 30px;
+	-fx-font-style: normal;
+	-fx-font-weight: lighter;
+	-fx-fill: black;
+}
+
+#textFromOthers{
+	-fx-font-family: Arial;
+	-fx-font-size: 15px;
+	-fx-font-style: normal;
+	-fx-font-weight: lighter;
+	-fx-fill: black;
+	-fx-background-color:green;
+}
+
+#textSort{
+	-fx-font-family: Arial;
+	-fx-font-size: 15px;
+	-fx-font-style: normal;
+	-fx-font-weight: lighter;
+	-fx-fill: black;
+}
+
+#NewAttHeader {
+	-fx-padding: 1;
+	-fx-border-width: 1;
+	-fx-border-insets: 1;
+	-fx-background-color: #F3F3F3;
+}
+
+#textNewAttHead{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+	
+}
+
+#sptop{
+	-fx-background-color:transparent;
+}
+
+#DownloadAttHead{
+	-fx-padding: 1; 
+	-fx-border-width: 1; 
+	-fx-border-insets: 1; 
+	-fx-background-color: #F3F3F3;
+}
+
+#textDownloadAttHead{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+	
+}
+
+#spbottom{
+	-fx-background-color:transparent;
+}
+
+
+
+#vboxDropDown {
+	-fx-background-color: white;
+}
+
+#textPublicAddress{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+}
+
+#textSize{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+}
+
+#textAttachments{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+}
+
+#textDownloaded{
+	-fx-font-family: Arial;
+	-fx-font-size: 15;
+	-fx-font-weight: lighter;
+	-fx-fill: grey;
+}
